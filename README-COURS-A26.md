@@ -11,6 +11,8 @@ chaque semaine, vous allez lire, comprendre, déboguer, réusiner et faire évol
 > pour la documentation technique générale (comment lancer l'app, structure du projet, etc.).
 > Ce présent addendum contient les informations **spécifiques au cours**.
 
+-> CHANGEMENT POUR TESTER LE RULESETS
+
 ## ⚠️ Important — ce projet contient volontairement des bogues et de la dette technique
 
 Comme dans un vrai emploi de développeur·euse junior, vous héritez d'un code qui n'est **pas
