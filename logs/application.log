@@ -1013,3 +1013,1018 @@ This generated password is for development use only. Your security configuration
 08:45:11.945 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 08:45:11.945 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown initiated...
 08:45:11.945 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown completed.
+09:06:03.759 [main] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 9.1.0.Final
+09:06:04.615 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.rest.controller.OwnerRestControllerV1Tests
+09:06:05.113 [main] INFO  o.s.s.p.r.c.OwnerRestControllerV1Tests - Starting OwnerRestControllerV1Tests using Java 21.0.5 with PID 13764 (started by 2233405 in C:\Users\2233405\Desktop\projet-legacy-team-a-e)
+09:06:05.113 [main] DEBUG o.s.s.p.r.c.OwnerRestControllerV1Tests - Running with Spring Boot v4.1.0, Spring v7.0.8
+09:06:05.113 [main] INFO  o.s.s.p.r.c.OwnerRestControllerV1Tests - The following 2 profiles are active: "hsqldb", "spring-data-jpa"
+09:06:06.532 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+09:06:06.638 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 97 ms. Found 7 JPA repository interfaces.
+09:06:08.952 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+09:06:09.661 [main] INFO  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+09:06:09.663 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@58576690
+09:06:09.667 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+09:06:09.926 [main] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+09:06:10.060 [main] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.1.Final
+09:06:10.831 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+09:06:11.053 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:hsqldb:mem:petclinic]
+	Database driver: HSQL Database Engine Driver
+	Database dialect: HSQLDialect
+	Database version: 2.7.3
+	Default catalog/schema: PUBLIC/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+09:06:12.729 [main] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09:06:12.739 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+09:06:13.216 [main] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+09:06:13.815 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+09:06:15.968 [main] WARN  o.s.b.s.a.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: b167d957-c089-49d9-a44c-1d1ad7e5a68d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+09:06:16.085 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+09:06:16.145 [main] INFO  o.s.s.p.r.c.OwnerRestControllerV1Tests - Started OwnerRestControllerV1Tests in 11.326 seconds (process running for 14.332)
+09:06:16.217 [main] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+09:06:16.217 [main] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+09:06:16.277 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:16.277 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:16.277 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:16.620 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:16.620 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:16.620 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:16.670 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:16.670 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:16.670 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:16.694 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:16.694 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:16.694 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:16.722 [main] ERROR o.s.s.p.r.a.ExceptionControllerAdvice - Unexpected error at POST /api/owners/1/pets
+java.lang.IllegalStateException: JDBC timeout while executing insert into pets
+	at org.springframework.samples.petclinic.rest.controller.v1.OwnerRestControllerV1.addPetToOwner(OwnerRestControllerV1.java:160)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158)
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:172)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.security.authorization.method.AuthorizationManagerBeforeMethodInterceptor.proceed(AuthorizationManagerBeforeMethodInterceptor.java:271)
+	at org.springframework.security.authorization.method.AuthorizationManagerBeforeMethodInterceptor.attemptAuthorization(AuthorizationManagerBeforeMethodInterceptor.java:266)
+	at org.springframework.security.authorization.method.AuthorizationManagerBeforeMethodInterceptor.invoke(AuthorizationManagerBeforeMethodInterceptor.java:197)
+	at org.springframework.security.config.annotation.method.configuration.DeferringMethodInterceptor.invoke(DeferringMethodInterceptor.java:44)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719)
+	at org.springframework.samples.petclinic.rest.controller.v1.OwnerRestControllerV1$$SpringCGLIB$$0.addPetToOwner(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:72)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:160)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:199)
+	at org.springframework.samples.petclinic.rest.controller.OwnerRestControllerV1Tests.testCreatePetWithUnexpectedErrorShouldReturnInternalServerErrorWithGenericDetail(OwnerRestControllerV1Tests.java:492)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:701)
+	at org.junit.platform.commons.support.ReflectionSupport.invokeMethod(ReflectionSupport.java:502)
+	at org.junit.jupiter.engine.support.MethodReflectionUtils.invoke(MethodReflectionUtils.java:45)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:61)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:124)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:163)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:148)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:123)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:99)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:66)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:47)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:39)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invokeVoid(InterceptingExecutableInvoker.java:71)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$0(TestMethodTestDescriptor.java:219)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:215)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:157)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:70)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$2(NodeTestTask.java:176)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$1(NodeTestTask.java:166)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$0(NodeTestTask.java:164)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:163)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:116)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:42)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$2(NodeTestTask.java:180)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$1(NodeTestTask.java:166)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$0(NodeTestTask.java:164)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:163)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:116)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:42)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$2(NodeTestTask.java:180)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$1(NodeTestTask.java:166)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$0(NodeTestTask.java:164)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:163)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:116)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:36)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:52)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.executeEngine(EngineExecutionOrchestrator.java:246)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.failOrExecuteEngine(EngineExecutionOrchestrator.java:218)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:179)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:66)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:157)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:65)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:125)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:58)
+	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$2(InterceptingLauncher.java:57)
+	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25)
+	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:56)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:58)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.maven.surefire.api.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:125)
+	at org.apache.maven.surefire.junitplatform.LauncherAdapter.executeWithCancellationToken(LauncherAdapter.java:68)
+	at org.apache.maven.surefire.junitplatform.LauncherAdapter.execute(LauncherAdapter.java:54)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:203)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:168)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:136)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+09:06:16.852 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:16.852 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:16.852 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:16.879 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:16.879 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:16.880 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:16.918 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:16.918 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:16.918 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:16.949 [main] DEBUG o.s.s.p.r.a.ExceptionControllerAdvice - Validation error at PUT /api/owners/1: [Field error in object 'ownerFieldsDto' on field 'firstName': rejected value []; codes [Size.ownerFieldsDto.firstName,Size.firstName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [ownerFieldsDto.firstName,firstName]; arguments []; default message [firstName],30,1]; default message [size must be between 1 and 30], Field error in object 'ownerFieldsDto' on field 'firstName': rejected value []; codes [Pattern.ownerFieldsDto.firstName,Pattern.firstName,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [ownerFieldsDto.firstName,firstName]; arguments []; default message [firstName],[Ljakarta.validation.constraints.Pattern$Flag;@1f6b1364,^[\p{L}]+([ '-][\p{L}]+){0,2}$]; default message [must match "^[\p{L}]+([ '-][\p{L}]+){0,2}$"]]
+09:06:16.972 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:16.972 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:16.972 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:16.985 [main] DEBUG o.s.s.p.service.ClinicServiceImpl - 0
+09:06:16.986 [main] WARN  o.s.s.p.service.ClinicServiceImpl - Il n'y a pas d'owners
+09:06:17.004 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.004 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.005 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+09:06:17.023 [main] DEBUG o.s.s.p.r.a.ExceptionControllerAdvice - Validation error at POST /api/owners/1/pets: [Field error in object 'petFieldsDto' on field 'type.name': rejected value []; codes [Size.petFieldsDto.type.name,Size.type.name,Size.name,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [petFieldsDto.type.name,type.name]; arguments []; default message [type.name],80,1]; default message [size must be between 1 and 80]]
+09:06:17.057 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.057 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.058 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.102 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.103 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.103 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.117 [main] DEBUG o.s.s.p.r.a.ExceptionControllerAdvice - Validation error at POST /api/owners/1/pets: [Field error in object 'petFieldsDto' on field 'type': rejected value [null]; codes [NotNull.petFieldsDto.type,NotNull.type,NotNull.org.springframework.samples.petclinic.rest.dto.PetTypeDto,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [petFieldsDto.type,type]; arguments []; default message [type]]; default message [must not be null]]
+09:06:17.140 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.140 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.140 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.153 [main] ERROR o.s.s.p.r.a.ExceptionControllerAdvice - Unexpected error at POST /api/owners
+java.lang.RuntimeException: Low-level persistence exception details
+	at org.springframework.samples.petclinic.rest.controller.v1.OwnerRestControllerV1.addOwner(OwnerRestControllerV1.java:113)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158)
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:172)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.security.authorization.method.AuthorizationManagerBeforeMethodInterceptor.proceed(AuthorizationManagerBeforeMethodInterceptor.java:271)
+	at org.springframework.security.authorization.method.AuthorizationManagerBeforeMethodInterceptor.attemptAuthorization(AuthorizationManagerBeforeMethodInterceptor.java:266)
+	at org.springframework.security.authorization.method.AuthorizationManagerBeforeMethodInterceptor.invoke(AuthorizationManagerBeforeMethodInterceptor.java:197)
+	at org.springframework.security.config.annotation.method.configuration.DeferringMethodInterceptor.invoke(DeferringMethodInterceptor.java:44)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719)
+	at org.springframework.samples.petclinic.rest.controller.v1.OwnerRestControllerV1$$SpringCGLIB$$0.addOwner(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:72)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:160)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:199)
+	at org.springframework.samples.petclinic.rest.controller.OwnerRestControllerV1Tests.testCreateOwnerWithUnexpectedErrorShouldReturnInternalServerErrorWithGenericDetail(OwnerRestControllerV1Tests.java:510)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:701)
+	at org.junit.platform.commons.support.ReflectionSupport.invokeMethod(ReflectionSupport.java:502)
+	at org.junit.jupiter.engine.support.MethodReflectionUtils.invoke(MethodReflectionUtils.java:45)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:61)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:124)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:163)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:148)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:123)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:99)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:66)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:47)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:39)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invokeVoid(InterceptingExecutableInvoker.java:71)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$0(TestMethodTestDescriptor.java:219)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:215)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:157)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:70)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$2(NodeTestTask.java:176)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$1(NodeTestTask.java:166)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$0(NodeTestTask.java:164)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:163)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:116)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:42)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$2(NodeTestTask.java:180)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$1(NodeTestTask.java:166)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$0(NodeTestTask.java:164)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:163)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:116)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:42)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$2(NodeTestTask.java:180)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$1(NodeTestTask.java:166)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$0(NodeTestTask.java:164)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:163)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:116)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:36)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:52)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.executeEngine(EngineExecutionOrchestrator.java:246)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.failOrExecuteEngine(EngineExecutionOrchestrator.java:218)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:179)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:66)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:157)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:65)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:125)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:58)
+	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$2(InterceptingLauncher.java:57)
+	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25)
+	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:56)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:58)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.maven.surefire.api.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:125)
+	at org.apache.maven.surefire.junitplatform.LauncherAdapter.executeWithCancellationToken(LauncherAdapter.java:68)
+	at org.apache.maven.surefire.junitplatform.LauncherAdapter.execute(LauncherAdapter.java:54)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:203)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:168)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:136)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+09:06:17.185 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.185 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.186 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.202 [main] WARN  o.s.s.p.r.a.ExceptionControllerAdvice - Data integrity violation at POST /api/owners/1/pets: could not execute statement; SQL [insert into pets ...]; constraint [fk_pet_owner]
+09:06:17.202 [main] DEBUG o.s.s.p.r.a.ExceptionControllerAdvice - Data integrity violation stacktrace
+org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [insert into pets ...]; constraint [fk_pet_owner]
+	at org.springframework.samples.petclinic.rest.controller.v1.OwnerRestControllerV1.addPetToOwner(OwnerRestControllerV1.java:160)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158)
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:172)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.security.authorization.method.AuthorizationManagerBeforeMethodInterceptor.proceed(AuthorizationManagerBeforeMethodInterceptor.java:271)
+	at org.springframework.security.authorization.method.AuthorizationManagerBeforeMethodInterceptor.attemptAuthorization(AuthorizationManagerBeforeMethodInterceptor.java:266)
+	at org.springframework.security.authorization.method.AuthorizationManagerBeforeMethodInterceptor.invoke(AuthorizationManagerBeforeMethodInterceptor.java:197)
+	at org.springframework.security.config.annotation.method.configuration.DeferringMethodInterceptor.invoke(DeferringMethodInterceptor.java:44)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719)
+	at org.springframework.samples.petclinic.rest.controller.v1.OwnerRestControllerV1$$SpringCGLIB$$0.addPetToOwner(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:72)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:160)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:199)
+	at org.springframework.samples.petclinic.rest.controller.OwnerRestControllerV1Tests.testCreatePetShouldNotExposeTechnicalDetails(OwnerRestControllerV1Tests.java:389)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:701)
+	at org.junit.platform.commons.support.ReflectionSupport.invokeMethod(ReflectionSupport.java:502)
+	at org.junit.jupiter.engine.support.MethodReflectionUtils.invoke(MethodReflectionUtils.java:45)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:61)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:124)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:163)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:148)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:123)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:99)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:66)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:47)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:39)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invokeVoid(InterceptingExecutableInvoker.java:71)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$0(TestMethodTestDescriptor.java:219)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:215)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:157)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:70)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$2(NodeTestTask.java:176)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$1(NodeTestTask.java:166)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$0(NodeTestTask.java:164)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:163)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:116)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:42)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$2(NodeTestTask.java:180)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$1(NodeTestTask.java:166)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$0(NodeTestTask.java:164)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:163)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:116)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:42)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$2(NodeTestTask.java:180)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$1(NodeTestTask.java:166)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$0(NodeTestTask.java:164)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:163)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:116)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:36)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:52)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.executeEngine(EngineExecutionOrchestrator.java:246)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.failOrExecuteEngine(EngineExecutionOrchestrator.java:218)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:179)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:66)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:157)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:65)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:125)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:58)
+	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$2(InterceptingLauncher.java:57)
+	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25)
+	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:56)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:58)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.maven.surefire.api.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:125)
+	at org.apache.maven.surefire.junitplatform.LauncherAdapter.executeWithCancellationToken(LauncherAdapter.java:68)
+	at org.apache.maven.surefire.junitplatform.LauncherAdapter.execute(LauncherAdapter.java:54)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:203)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:168)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:136)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+09:06:17.221 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.221 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.222 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+09:06:17.223 [main] DEBUG o.s.s.p.service.ClinicServiceImpl - null
+09:06:17.225 [main] WARN  o.s.s.p.service.ClinicServiceImpl - Il n'y a pas d'owners
+09:06:17.237 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.237 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.238 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.263 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.264 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.264 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.278 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.279 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.279 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.291 [main] DEBUG o.s.s.p.r.a.ExceptionControllerAdvice - Validation error at POST /api/owners/1/pets: [Field error in object 'petFieldsDto' on field 'name': rejected value [null]; codes [NotNull.petFieldsDto.name,NotNull.name,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [petFieldsDto.name,name]; arguments []; default message [name]]; default message [must not be null]]
+09:06:17.309 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.309 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.309 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.338 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.338 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.338 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.340 [main] DEBUG o.s.s.p.service.ClinicServiceImpl - null
+09:06:17.356 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.357 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.357 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.377 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.378 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.378 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.405 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.405 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.405 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.407 [main] DEBUG o.s.s.p.service.ClinicServiceImpl - Davis
+09:06:17.420 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.420 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.420 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.435 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.435 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.435 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.464 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.464 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.465 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+09:06:17.488 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.488 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.488 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.498 [main] DEBUG o.s.s.p.r.a.ExceptionControllerAdvice - Validation error at POST /api/owners: [Field error in object 'ownerFieldsDto' on field 'firstName': rejected value [null]; codes [NotNull.ownerFieldsDto.firstName,NotNull.firstName,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [ownerFieldsDto.firstName,firstName]; arguments []; default message [firstName]]; default message [must not be null]]
+09:06:17.519 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.519 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.519 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.544 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.545 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.545 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.560 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.560 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.560 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.571 [main] DEBUG o.s.s.p.r.a.ExceptionControllerAdvice - Validation error at POST /api/owners/1/pets: [Field error in object 'petFieldsDto' on field 'type.id': rejected value [null]; codes [NotNull.petFieldsDto.type.id,NotNull.type.id,NotNull.id,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [petFieldsDto.type.id,type.id]; arguments []; default message [type.id]]; default message [must not be null]]
+09:06:17.589 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.rest.controller.PetRestControllerV1Tests
+09:06:17.601 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.601 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.601 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.619 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.619 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.619 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.633 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.633 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.633 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.648 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.648 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.648 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.661 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.661 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.661 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.669 [main] WARN  o.h.v.i.m.a.CascadingMetaDataBuilder - HV000271: Using `@Valid` on a container (java.util.List) is deprecated. You should apply the annotation on the type argument(s). Affected element: PetDto#getVisits()
+09:06:17.676 [main] WARN  o.h.v.i.m.a.CascadingMetaDataBuilder - HV000271: Using `@Valid` on a container (java.util.List) is deprecated. You should apply the annotation on the type argument(s). Affected element: PetDto#getVisits()
+09:06:17.700 [main] WARN  o.h.v.i.m.a.CascadingMetaDataBuilder - HV000271: Using `@Valid` on a container (java.util.List) is deprecated. You should apply the annotation on the type argument(s). Affected element: PetDto#getVisits()
+09:06:17.700 [main] WARN  o.h.v.i.m.a.CascadingMetaDataBuilder - HV000271: Using `@Valid` on a container (java.util.List) is deprecated. You should apply the annotation on the type argument(s). Affected element: PetDto#getVisits()
+09:06:17.730 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.730 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.730 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.739 [main] WARN  o.h.v.i.m.a.CascadingMetaDataBuilder - HV000271: Using `@Valid` on a container (java.util.List) is deprecated. You should apply the annotation on the type argument(s). Affected element: PetDto#getVisits()
+09:06:17.739 [main] WARN  o.h.v.i.m.a.CascadingMetaDataBuilder - HV000271: Using `@Valid` on a container (java.util.List) is deprecated. You should apply the annotation on the type argument(s). Affected element: PetDto#getVisits()
+09:06:17.755 [main] DEBUG o.s.s.p.r.a.ExceptionControllerAdvice - Validation error at PUT /api/pets/3: [Field error in object 'petDto' on field 'name': rejected value [null]; codes [NotNull.petDto.name,NotNull.name,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [petDto.name,name]; arguments []; default message [name]]; default message [must not be null]]
+09:06:17.770 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.770 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.770 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.782 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.782 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.782 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.793 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.rest.controller.PetTypeRestControllerV1Tests
+09:06:17.804 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.804 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.804 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.820 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.820 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.820 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.832 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.832 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.832 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.846 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.846 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.846 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.851 [main] DEBUG o.s.s.p.r.a.ExceptionControllerAdvice - Validation error at PUT /api/pettypes/1: [Field error in object 'petTypeDto' on field 'name': rejected value []; codes [Size.petTypeDto.name,Size.name,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [petTypeDto.name,name]; arguments []; default message [name],80,1]; default message [size must be between 1 and 80]]
+09:06:17.865 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.865 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.866 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+09:06:17.885 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.885 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.885 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.903 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.903 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.903 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.916 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.916 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.918 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.930 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.930 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.931 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+09:06:17.944 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.945 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.945 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.968 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.968 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.968 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.982 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:17.983 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:17.983 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:17.988 [main] DEBUG o.s.s.p.r.a.ExceptionControllerAdvice - Validation error at POST /api/pettypes: [Field error in object 'petTypeFieldsDto' on field 'name': rejected value [null]; codes [NotNull.petTypeFieldsDto.name,NotNull.name,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [petTypeFieldsDto.name,name]; arguments []; default message [name]]; default message [must not be null]]
+09:06:17.998 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.rest.controller.SpecialtyRestControllerV1Tests
+09:06:18.010 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:18.010 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:18.010 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:18.035 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:18.035 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:18.035 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:18.042 [main] DEBUG o.s.s.p.r.a.ExceptionControllerAdvice - Validation error at PUT /api/specialties/1: [Field error in object 'specialtyDto' on field 'name': rejected value []; codes [Size.specialtyDto.name,Size.name,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [specialtyDto.name,name]; arguments []; default message [name],80,1]; default message [size must be between 1 and 80]]
+09:06:18.057 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:18.057 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:18.057 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:18.074 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:18.074 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:18.076 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+09:06:18.082 [main] DEBUG o.s.s.p.r.a.ExceptionControllerAdvice - Validation error at POST /api/specialties: [Field error in object 'specialtyDto' on field 'name': rejected value [null]; codes [NotNull.specialtyDto.name,NotNull.name,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [specialtyDto.name,name]; arguments []; default message [name]]; default message [must not be null]]
+09:06:18.098 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:18.098 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:18.098 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:18.114 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:18.114 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:18.114 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:18.133 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:18.133 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:18.133 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:18.154 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:18.154 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:18.155 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+09:06:18.171 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:18.171 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:18.172 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:18.186 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:18.186 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:18.186 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:18.202 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.rest.controller.UserRestControllerV1Tests
+09:06:18.249 [main] INFO  o.s.s.p.r.c.UserRestControllerV1Tests - Starting UserRestControllerV1Tests using Java 21.0.5 with PID 13764 (started by 2233405 in C:\Users\2233405\Desktop\projet-legacy-team-a-e)
+09:06:18.249 [main] DEBUG o.s.s.p.r.c.UserRestControllerV1Tests - Running with Spring Boot v4.1.0, Spring v7.0.8
+09:06:18.249 [main] INFO  o.s.s.p.r.c.UserRestControllerV1Tests - The following 2 profiles are active: "hsqldb", "spring-data-jpa"
+09:06:18.595 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+09:06:18.642 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 7 JPA repository interfaces.
+09:06:18.757 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+09:06:18.758 [main] INFO  com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Driver does not support get/set network timeout for connections. (feature not supported)
+09:06:18.759 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection org.hsqldb.jdbc.JDBCConnection@7d5485c2
+09:06:18.759 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+09:06:18.802 [main] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+09:06:18.858 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+09:06:18.860 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:hsqldb:mem:petclinic]
+	Database driver: HSQL Database Engine Driver
+	Database dialect: HSQLDialect
+	Database version: 2.7.3
+	Default catalog/schema: PUBLIC/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+09:06:18.941 [main] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09:06:18.942 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+09:06:19.156 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+09:06:19.325 [main] WARN  o.s.b.s.a.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: e460ea41-bd8f-4c94-b414-739ddbed9424
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+09:06:19.348 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+09:06:19.364 [main] INFO  o.s.s.p.r.c.UserRestControllerV1Tests - Started UserRestControllerV1Tests in 1.157 seconds (process running for 17.551)
+09:06:19.366 [main] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+09:06:19.366 [main] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+09:06:19.439 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:19.439 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:19.439 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:19.446 [main] WARN  o.h.v.i.m.a.CascadingMetaDataBuilder - HV000271: Using `@Valid` on a container (java.util.List) is deprecated. You should apply the annotation on the type argument(s). Affected element: UserDto#getRoles()
+09:06:19.447 [main] WARN  o.h.v.i.m.a.CascadingMetaDataBuilder - HV000271: Using `@Valid` on a container (java.util.List) is deprecated. You should apply the annotation on the type argument(s). Affected element: UserDto#getRoles()
+09:06:19.455 [main] DEBUG o.s.s.p.r.a.ExceptionControllerAdvice - Validation error at POST /api/users: [Field error in object 'userDto' on field 'username': rejected value []; codes [Size.userDto.username,Size.username,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userDto.username,username]; arguments []; default message [username],80,1]; default message [size must be between 1 and 80]]
+09:06:19.473 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:19.473 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:19.473 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:19.479 [main] WARN  o.h.v.i.m.a.CascadingMetaDataBuilder - HV000271: Using `@Valid` on a container (java.util.List) is deprecated. You should apply the annotation on the type argument(s). Affected element: UserDto#getRoles()
+09:06:19.479 [main] WARN  o.h.v.i.m.a.CascadingMetaDataBuilder - HV000271: Using `@Valid` on a container (java.util.List) is deprecated. You should apply the annotation on the type argument(s). Affected element: UserDto#getRoles()
+09:06:19.491 [main] WARN  o.h.v.i.m.a.CascadingMetaDataBuilder - HV000271: Using `@Valid` on a container (java.util.List) is deprecated. You should apply the annotation on the type argument(s). Affected element: UserDto#getRoles()
+09:06:19.491 [main] WARN  o.h.v.i.m.a.CascadingMetaDataBuilder - HV000271: Using `@Valid` on a container (java.util.List) is deprecated. You should apply the annotation on the type argument(s). Affected element: UserDto#getRoles()
+09:06:19.682 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.rest.controller.V2RestControllersTests
+09:06:19.691 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:19.691 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:19.691 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:19.720 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:19.720 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:19.721 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+09:06:19.732 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.rest.controller.VetRestControllerV1Tests
+09:06:19.743 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:19.743 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:19.743 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:19.759 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:19.759 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:19.759 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:19.768 [main] WARN  o.h.v.i.m.a.CascadingMetaDataBuilder - HV000271: Using `@Valid` on a container (java.util.List) is deprecated. You should apply the annotation on the type argument(s). Affected element: VetDto#getSpecialties()
+09:06:19.768 [main] WARN  o.h.v.i.m.a.CascadingMetaDataBuilder - HV000271: Using `@Valid` on a container (java.util.List) is deprecated. You should apply the annotation on the type argument(s). Affected element: VetDto#getSpecialties()
+09:06:19.777 [main] WARN  o.h.v.i.m.a.CascadingMetaDataBuilder - HV000271: Using `@Valid` on a container (java.util.List) is deprecated. You should apply the annotation on the type argument(s). Affected element: VetDto#getSpecialties()
+09:06:19.777 [main] WARN  o.h.v.i.m.a.CascadingMetaDataBuilder - HV000271: Using `@Valid` on a container (java.util.List) is deprecated. You should apply the annotation on the type argument(s). Affected element: VetDto#getSpecialties()
+09:06:19.789 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:19.790 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:19.790 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:19.802 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:19.802 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:19.802 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:19.814 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:19.814 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:19.815 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:19.825 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:19.825 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:19.825 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:19.830 [main] WARN  o.h.v.i.m.a.CascadingMetaDataBuilder - HV000271: Using `@Valid` on a container (java.util.List) is deprecated. You should apply the annotation on the type argument(s). Affected element: VetDto#getSpecialties()
+09:06:19.830 [main] WARN  o.h.v.i.m.a.CascadingMetaDataBuilder - HV000271: Using `@Valid` on a container (java.util.List) is deprecated. You should apply the annotation on the type argument(s). Affected element: VetDto#getSpecialties()
+09:06:19.848 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:19.848 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:19.848 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:19.858 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:19.858 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:19.858 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:19.863 [main] WARN  o.h.v.i.m.a.CascadingMetaDataBuilder - HV000271: Using `@Valid` on a container (java.util.List) is deprecated. You should apply the annotation on the type argument(s). Affected element: VetDto#getSpecialties()
+09:06:19.863 [main] WARN  o.h.v.i.m.a.CascadingMetaDataBuilder - HV000271: Using `@Valid` on a container (java.util.List) is deprecated. You should apply the annotation on the type argument(s). Affected element: VetDto#getSpecialties()
+09:06:19.870 [main] DEBUG o.s.s.p.r.a.ExceptionControllerAdvice - Validation error at PUT /api/vets/1: [Field error in object 'vetDto' on field 'firstName': rejected value [null]; codes [NotNull.vetDto.firstName,NotNull.firstName,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [vetDto.firstName,firstName]; arguments []; default message [firstName]]; default message [must not be null]]
+09:06:19.883 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:19.883 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:19.883 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:19.888 [main] WARN  o.h.v.i.m.a.CascadingMetaDataBuilder - HV000271: Using `@Valid` on a container (java.util.List) is deprecated. You should apply the annotation on the type argument(s). Affected element: VetDto#getSpecialties()
+09:06:19.888 [main] WARN  o.h.v.i.m.a.CascadingMetaDataBuilder - HV000271: Using `@Valid` on a container (java.util.List) is deprecated. You should apply the annotation on the type argument(s). Affected element: VetDto#getSpecialties()
+09:06:19.895 [main] DEBUG o.s.s.p.r.a.ExceptionControllerAdvice - Validation error at POST /api/vets: [Field error in object 'vetDto' on field 'firstName': rejected value [null]; codes [NotNull.vetDto.firstName,NotNull.firstName,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [vetDto.firstName,firstName]; arguments []; default message [firstName]]; default message [must not be null]]
+09:06:19.908 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:19.908 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:19.908 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:19.918 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.rest.controller.VisitRestControllerV1Tests
+09:06:19.929 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:19.929 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:19.929 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:19.946 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:19.947 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:19.947 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:19.962 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:19.962 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:19.963 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:19.986 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:19.986 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:19.986 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:19.994 [main] DEBUG o.s.s.p.r.a.ExceptionControllerAdvice - Validation error at POST /api/visits: [Field error in object 'visitDto' on field 'description': rejected value [null]; codes [NotNull.visitDto.description,NotNull.description,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [visitDto.description,description]; arguments []; default message [description]]; default message [must not be null]]
+09:06:20.009 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:20.009 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:20.009 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:20.022 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:20.023 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:20.023 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:20.028 [main] DEBUG o.s.s.p.r.a.ExceptionControllerAdvice - Validation error at PUT /api/visits/2: [Field error in object 'visitFieldsDto' on field 'description': rejected value [null]; codes [NotNull.visitFieldsDto.description,NotNull.description,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [visitFieldsDto.description,description]; arguments []; default message [description]]; default message [must not be null]]
+09:06:20.041 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:20.041 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:20.041 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:20.054 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:20.054 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:20.054 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:20.065 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:20.065 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:20.065 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:20.082 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+09:06:20.083 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+09:06:20.083 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+09:06:20.091 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.springframework.samples.petclinic.service.clinicService.ClinicServiceH2JdbcTests]: ClinicServiceH2JdbcTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:06:20.110 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.service.clinicService.ClinicServiceH2JdbcTests
+09:06:20.111 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.springframework.samples.petclinic.service.clinicService.ClinicServiceH2JdbcTests]: ClinicServiceH2JdbcTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:06:20.111 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.springframework.samples.petclinic.service.clinicService.AbstractClinicServiceTests]: AbstractClinicServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:06:20.112 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.service.clinicService.ClinicServiceH2JdbcTests
+09:06:20.150 [main] INFO  o.s.s.p.s.c.ClinicServiceH2JdbcTests - Starting ClinicServiceH2JdbcTests using Java 21.0.5 with PID 13764 (started by 2233405 in C:\Users\2233405\Desktop\projet-legacy-team-a-e)
+09:06:20.150 [main] DEBUG o.s.s.p.s.c.ClinicServiceH2JdbcTests - Running with Spring Boot v4.1.0, Spring v7.0.8
+09:06:20.150 [main] INFO  o.s.s.p.s.c.ClinicServiceH2JdbcTests - The following 2 profiles are active: "h2", "jdbc"
+09:06:20.428 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+09:06:20.446 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+09:06:20.535 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+09:06:20.892 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection conn0: url=jdbc:h2:mem:petclinic user=SA
+09:06:20.892 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+09:06:20.975 [main] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+09:06:20.996 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+09:06:21.000 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09:06:21.009 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:petclinic]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: PETCLINIC/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+09:06:21.128 [main] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09:06:21.209 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+09:06:21.383 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+09:06:21.565 [main] WARN  o.s.b.s.a.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 4407d8a3-6955-407e-87e5-f7a0da75063d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+09:06:21.585 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+09:06:21.599 [main] INFO  o.s.s.p.s.c.ClinicServiceH2JdbcTests - Started ClinicServiceH2JdbcTests in 1.48 seconds (process running for 19.785)
+09:06:21.600 [main] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+09:06:21.600 [main] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+09:06:21.891 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.springframework.samples.petclinic.service.clinicService.ClinicServiceHsqlJdbcTests]: ClinicServiceHsqlJdbcTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:06:21.892 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.service.clinicService.ClinicServiceHsqlJdbcTests
+09:06:21.893 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.springframework.samples.petclinic.service.clinicService.ClinicServiceHsqlJdbcTests]: ClinicServiceHsqlJdbcTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:06:21.894 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.springframework.samples.petclinic.service.clinicService.AbstractClinicServiceTests]: AbstractClinicServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:06:21.894 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.service.clinicService.ClinicServiceHsqlJdbcTests
+09:06:21.923 [main] INFO  o.s.s.p.s.c.ClinicServiceHsqlJdbcTests - Starting ClinicServiceHsqlJdbcTests using Java 21.0.5 with PID 13764 (started by 2233405 in C:\Users\2233405\Desktop\projet-legacy-team-a-e)
+09:06:21.923 [main] DEBUG o.s.s.p.s.c.ClinicServiceHsqlJdbcTests - Running with Spring Boot v4.1.0, Spring v7.0.8
+09:06:21.924 [main] INFO  o.s.s.p.s.c.ClinicServiceHsqlJdbcTests - The following 2 profiles are active: "hsqldb", "jdbc"
+09:06:22.146 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+09:06:22.160 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+09:06:22.248 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+09:06:22.249 [main] INFO  com.zaxxer.hikari.pool.PoolBase - HikariPool-4 - Driver does not support get/set network timeout for connections. (feature not supported)
+09:06:22.249 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection org.hsqldb.jdbc.JDBCConnection@2ede08c8
+09:06:22.250 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+09:06:22.283 [main] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+09:06:22.309 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+09:06:22.311 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:hsqldb:mem:petclinic]
+	Database driver: HSQL Database Engine Driver
+	Database dialect: HSQLDialect
+	Database version: 2.7.3
+	Default catalog/schema: PUBLIC/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+09:06:22.372 [main] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09:06:22.373 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+09:06:22.463 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+09:06:22.645 [main] WARN  o.s.b.s.a.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 8ba4c03b-7135-4b0d-acda-d7bcaeca64fd
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+09:06:22.667 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+09:06:22.679 [main] INFO  o.s.s.p.s.c.ClinicServiceHsqlJdbcTests - Started ClinicServiceHsqlJdbcTests in 0.782 seconds (process running for 20.865)
+09:06:22.680 [main] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+09:06:22.680 [main] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+09:06:23.127 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.springframework.samples.petclinic.service.clinicService.ClinicServiceJpaTests]: ClinicServiceJpaTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:06:23.128 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.service.clinicService.ClinicServiceJpaTests
+09:06:23.129 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.springframework.samples.petclinic.service.clinicService.ClinicServiceJpaTests]: ClinicServiceJpaTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:06:23.129 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.springframework.samples.petclinic.service.clinicService.AbstractClinicServiceTests]: AbstractClinicServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:06:23.130 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.service.clinicService.ClinicServiceJpaTests
+09:06:23.158 [main] INFO  o.s.s.p.s.c.ClinicServiceJpaTests - Starting ClinicServiceJpaTests using Java 21.0.5 with PID 13764 (started by 2233405 in C:\Users\2233405\Desktop\projet-legacy-team-a-e)
+09:06:23.158 [main] DEBUG o.s.s.p.s.c.ClinicServiceJpaTests - Running with Spring Boot v4.1.0, Spring v7.0.8
+09:06:23.158 [main] INFO  o.s.s.p.s.c.ClinicServiceJpaTests - The following 2 profiles are active: "jpa", "hsqldb"
+09:06:23.357 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+09:06:23.370 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+09:06:23.432 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+09:06:23.433 [main] INFO  com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Driver does not support get/set network timeout for connections. (feature not supported)
+09:06:23.433 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection org.hsqldb.jdbc.JDBCConnection@1889cae3
+09:06:23.433 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+09:06:23.460 [main] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+09:06:23.479 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+09:06:23.481 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:hsqldb:mem:petclinic]
+	Database driver: HSQL Database Engine Driver
+	Database dialect: HSQLDialect
+	Database version: 2.7.3
+	Default catalog/schema: PUBLIC/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+09:06:23.530 [main] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09:06:23.531 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+09:06:23.636 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+09:06:23.789 [main] WARN  o.s.b.s.a.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: f7e86515-1940-4650-95bf-fe864c7344f4
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+09:06:23.809 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+09:06:23.824 [main] INFO  o.s.s.p.s.c.ClinicServiceJpaTests - Started ClinicServiceJpaTests in 0.692 seconds (process running for 22.01)
+09:06:23.825 [main] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+09:06:23.825 [main] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+09:06:24.005 [main] WARN  org.hibernate.orm.jdbc.error - HHH000247: ErrorCode: -8, SQLState: 23504
+09:06:24.005 [main] WARN  org.hibernate.orm.jdbc.error - integrity constraint violation: foreign key no action ; FK_PETS_TYPES table: PETS
+09:06:24.205 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.springframework.samples.petclinic.service.clinicService.ClinicServiceSpringDataJpaTests]: ClinicServiceSpringDataJpaTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:06:24.206 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.service.clinicService.ClinicServiceSpringDataJpaTests
+09:06:24.207 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.springframework.samples.petclinic.service.clinicService.ClinicServiceSpringDataJpaTests]: ClinicServiceSpringDataJpaTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:06:24.207 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.springframework.samples.petclinic.service.clinicService.AbstractClinicServiceTests]: AbstractClinicServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:06:24.208 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.service.clinicService.ClinicServiceSpringDataJpaTests
+09:06:24.235 [main] INFO  o.s.s.p.s.c.ClinicServiceSpringDataJpaTests - Starting ClinicServiceSpringDataJpaTests using Java 21.0.5 with PID 13764 (started by 2233405 in C:\Users\2233405\Desktop\projet-legacy-team-a-e)
+09:06:24.235 [main] DEBUG o.s.s.p.s.c.ClinicServiceSpringDataJpaTests - Running with Spring Boot v4.1.0, Spring v7.0.8
+09:06:24.235 [main] INFO  o.s.s.p.s.c.ClinicServiceSpringDataJpaTests - The following 2 profiles are active: "spring-data-jpa", "hsqldb"
+09:06:24.441 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+09:06:24.472 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29 ms. Found 7 JPA repository interfaces.
+09:06:24.530 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+09:06:24.531 [main] INFO  com.zaxxer.hikari.pool.PoolBase - HikariPool-6 - Driver does not support get/set network timeout for connections. (feature not supported)
+09:06:24.531 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection org.hsqldb.jdbc.JDBCConnection@1b81cec3
+09:06:24.531 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+09:06:24.554 [main] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+09:06:24.575 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+09:06:24.576 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:hsqldb:mem:petclinic]
+	Database driver: HSQL Database Engine Driver
+	Database dialect: HSQLDialect
+	Database version: 2.7.3
+	Default catalog/schema: PUBLIC/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+09:06:24.625 [main] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09:06:24.626 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+09:06:24.759 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+09:06:24.929 [main] WARN  o.s.b.s.a.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: fd281efe-fec7-4721-bb4d-b06abb010eed
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+09:06:24.957 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+09:06:24.971 [main] INFO  o.s.s.p.s.c.ClinicServiceSpringDataJpaTests - Started ClinicServiceSpringDataJpaTests in 0.76 seconds (process running for 23.157)
+09:06:24.972 [main] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+09:06:24.972 [main] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+09:06:25.150 [main] WARN  org.hibernate.orm.jdbc.error - HHH000247: ErrorCode: -8, SQLState: 23504
+09:06:25.150 [main] WARN  org.hibernate.orm.jdbc.error - integrity constraint violation: foreign key no action ; FK_PETS_TYPES table: PETS
+09:06:25.349 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.springframework.samples.petclinic.service.userService.UserServiceH2JdbcTests]: UserServiceH2JdbcTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:06:25.363 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.service.userService.UserServiceH2JdbcTests
+09:06:25.364 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.springframework.samples.petclinic.service.userService.UserServiceH2JdbcTests]: UserServiceH2JdbcTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:06:25.364 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.springframework.samples.petclinic.service.userService.AbstractUserServiceTests]: AbstractUserServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:06:25.364 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.service.userService.UserServiceH2JdbcTests
+09:06:25.378 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.springframework.samples.petclinic.service.userService.UserServiceHsqlJdbcTests]: UserServiceHsqlJdbcTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:06:25.379 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.service.userService.UserServiceHsqlJdbcTests
+09:06:25.379 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.springframework.samples.petclinic.service.userService.UserServiceHsqlJdbcTests]: UserServiceHsqlJdbcTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:06:25.379 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.springframework.samples.petclinic.service.userService.AbstractUserServiceTests]: AbstractUserServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:06:25.380 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.service.userService.UserServiceHsqlJdbcTests
+09:06:25.413 [main] INFO  o.s.s.p.s.u.UserServiceHsqlJdbcTests - Starting UserServiceHsqlJdbcTests using Java 21.0.5 with PID 13764 (started by 2233405 in C:\Users\2233405\Desktop\projet-legacy-team-a-e)
+09:06:25.414 [main] DEBUG o.s.s.p.s.u.UserServiceHsqlJdbcTests - Running with Spring Boot v4.1.0, Spring v7.0.8
+09:06:25.414 [main] INFO  o.s.s.p.s.u.UserServiceHsqlJdbcTests - The following 2 profiles are active: "hsqldb", "jdbc"
+09:06:25.616 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+09:06:25.629 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+09:06:25.678 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+09:06:25.678 [main] INFO  com.zaxxer.hikari.pool.PoolBase - HikariPool-7 - Driver does not support get/set network timeout for connections. (feature not supported)
+09:06:25.679 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection org.hsqldb.jdbc.JDBCConnection@2f1f7e7a
+09:06:25.679 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+09:06:25.702 [main] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+09:06:25.723 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+09:06:25.724 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:hsqldb:mem:petclinic]
+	Database driver: HSQL Database Engine Driver
+	Database dialect: HSQLDialect
+	Database version: 2.7.3
+	Default catalog/schema: PUBLIC/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+09:06:25.769 [main] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09:06:25.770 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+09:06:25.849 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+09:06:25.997 [main] WARN  o.s.b.s.a.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 2999316b-f6d4-4bfa-ad0e-973d8aa469b0
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+09:06:26.017 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+09:06:26.026 [main] INFO  o.s.s.p.s.u.UserServiceHsqlJdbcTests - Started UserServiceHsqlJdbcTests in 0.644 seconds (process running for 24.213)
+09:06:26.027 [main] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+09:06:26.027 [main] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+09:06:26.052 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.springframework.samples.petclinic.service.userService.UserServiceJpaTests]: UserServiceJpaTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:06:26.053 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.service.userService.UserServiceJpaTests
+09:06:26.054 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.springframework.samples.petclinic.service.userService.UserServiceJpaTests]: UserServiceJpaTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:06:26.054 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.springframework.samples.petclinic.service.userService.AbstractUserServiceTests]: AbstractUserServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:06:26.055 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.service.userService.UserServiceJpaTests
+09:06:26.064 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.springframework.samples.petclinic.service.userService.UserServiceSpringDataJpaTests]: UserServiceSpringDataJpaTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:06:26.065 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.service.userService.UserServiceSpringDataJpaTests
+09:06:26.066 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.springframework.samples.petclinic.service.userService.UserServiceSpringDataJpaTests]: UserServiceSpringDataJpaTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:06:26.066 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.springframework.samples.petclinic.service.userService.AbstractUserServiceTests]: AbstractUserServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:06:26.066 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.service.userService.UserServiceSpringDataJpaTests
+09:06:26.105 [main] INFO  o.s.s.petclinic.SpringConfigTests - Starting SpringConfigTests using Java 21.0.5 with PID 13764 (started by 2233405 in C:\Users\2233405\Desktop\projet-legacy-team-a-e)
+09:06:26.105 [main] DEBUG o.s.s.petclinic.SpringConfigTests - Running with Spring Boot v4.1.0, Spring v7.0.8
+09:06:26.105 [main] INFO  o.s.s.petclinic.SpringConfigTests - The following 2 profiles are active: "hsqldb", "spring-data-jpa"
+09:06:26.289 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+09:06:26.321 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30 ms. Found 7 JPA repository interfaces.
+09:06:26.374 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
+09:06:26.375 [main] INFO  com.zaxxer.hikari.pool.PoolBase - HikariPool-8 - Driver does not support get/set network timeout for connections. (feature not supported)
+09:06:26.375 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Added connection org.hsqldb.jdbc.JDBCConnection@2ef6800
+09:06:26.375 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
+09:06:26.404 [main] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+09:06:26.431 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+09:06:26.433 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:hsqldb:mem:petclinic]
+	Database driver: HSQL Database Engine Driver
+	Database dialect: HSQLDialect
+	Database version: 2.7.3
+	Default catalog/schema: PUBLIC/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+09:06:26.478 [main] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09:06:26.479 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+09:06:26.596 [main] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+09:06:26.738 [main] WARN  o.s.b.s.a.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: c754fa08-50d9-4330-9fce-0b83f3877b1f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+09:06:26.757 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+09:06:26.766 [main] INFO  o.s.s.petclinic.SpringConfigTests - Started SpringConfigTests in 0.686 seconds (process running for 24.952)
+09:06:26.767 [main] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+09:06:26.767 [main] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+09:06:26.945 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+09:06:26.970 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+09:06:26.972 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+09:06:26.976 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+09:06:26.976 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+09:06:26.977 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+09:06:26.979 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+09:06:26.979 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+09:06:26.980 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+09:06:26.981 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+09:06:26.982 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+09:06:26.983 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+09:06:26.984 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+09:06:26.985 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+09:06:26.985 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+09:06:26.987 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+09:06:26.987 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+09:06:26.988 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+09:06:26.989 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+09:06:26.990 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
+09:06:26.990 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
+09:06:26.992 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+09:06:26.992 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown initiated...
+09:06:26.993 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown completed.
