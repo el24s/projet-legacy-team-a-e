@@ -67,3 +67,7 @@ que vous maintiendrez en stage et en emploi. 💪
 
 # commande pour test avec le maven du projet
 - ./mvnw.cmd test
+
+# @Disabled on top of the test
+# @Tag("lent")
+# -Dtest
