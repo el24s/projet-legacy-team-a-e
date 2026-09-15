@@ -63,3 +63,14 @@ Puis testez l'API : http://localhost:9966/petclinic/api/pets — voir `readme.md
 
 Bonne session — et rappelez-vous : le code que vous maintenez aujourd'hui, c'est le genre de code
 que vous maintiendrez en stage et en emploi. 💪
+
+
+
+
+tp1
+- react
+- backend from sracth
+- endpoints spécifique pour le frontend -> REACT
+- java maven  , group = ca.cegepmv.maintenance.e-d, artifact tp1, 
+- api exposer swagger pour creer un person
+- csv moved to frontend
