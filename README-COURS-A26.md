@@ -62,3 +62,8 @@ Puis testez l'API : http://localhost:9966/petclinic/api/pets — voir `readme.md
 
 Bonne session — et rappelez-vous : le code que vous maintenez aujourd'hui, c'est le genre de code
 que vous maintiendrez en stage et en emploi. 💪
+
+
+
+# commande pour test avec le maven du projet
+- ./mvnw.cmd test
