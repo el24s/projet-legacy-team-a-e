@@ -22,12 +22,21 @@ jobs:
           java-version: '25'
           distribution: 'temurin'
           cache: maven
+      - name: Accès au fichier
+        run: chmod +x mvnw 
 
       - name: Build, tests et analyse SonarCloud
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: ./mvnw -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=${{ vars.SONAR_PROJECT_KEY }}
+
+      - name: Upload SARIF as artifact
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+            name: trivy-results
+            path: trivy-results.sarif
 
   build-and-push:
     needs: test-and-analyze   # <- n'exécute ce job QUE si test-and-analyze a réussi
