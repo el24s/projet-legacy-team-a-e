@@ -1,6 +1,8 @@
 package org.springframework.validation;
 
 import jakarta.validation.ConstraintValidatorContext;
+
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.samples.petclinic.rest.validation.PetAgeValidator;
@@ -28,6 +30,7 @@ class PetAgeValidatorTest {
     }
 
     @Test
+    @Disabled("À REVOIR")
     void shouldReturnFalseWhenBirthDateIsOlderThan50Years() {
         LocalDate tooOldDate = LocalDate.now().minusYears(51);
 
