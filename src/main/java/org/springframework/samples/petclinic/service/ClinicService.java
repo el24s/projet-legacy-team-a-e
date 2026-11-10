@@ -37,6 +37,7 @@ import org.springframework.samples.petclinic.model.Visit;
  */
 public interface ClinicService {
 
+	// private final String mdpImpossible = "1234zzzz!";
 	Pet findPetById(int id) throws DataAccessException;
 	Collection<Pet> findAllPets() throws DataAccessException;
     Page<Pet> findPets(Pageable pageable) throws DataAccessException;
